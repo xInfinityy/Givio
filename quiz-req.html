@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz Requirements</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="https://kit.fontawesome.com/00ac592bf7.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="page4">
+
+  <!-- Exit button -->
+  <div>
+    <a class="exit" href="index.html">X</a>
+  </div>
+
+  <!-- Heading: Quiz Page -->
+  <div class="quiz-heading">
+    <h1>TIME REQUIREMENTS</h1>
+    <p>
+      How many hours <b>per week</b> maximum are you looking to spend? (please select one)
+    </p>
+  </div>
+
+  <!-- Section: Quiz Items -->
+  <div class="section quiz-items">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(1)">
+            1 to 2 hours
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(3)">
+            3 to 4 hours
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(5);">
+            5 to 6 hours
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(7);">
+            7 to 8 hours
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(9);">
+            9 to 10 hours
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="quizbox quiz3" onclick="filterTime(10);">
+            10+ hours
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Next Button -->
+  <div class="section button" id="next-button" onclick="next();">
+    <a class="button-link" href="results.html" style="text-decoration: none">
+      FINISH
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+
+  <!-- Script tags for js -->
+  <script src="JS/script3.js"></script>
+
+</body>
+
+</html>
